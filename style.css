@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+.font-praise {
+    font-family: 'Praise', cursive;
+}
+
+.font-abyssinica-SIL {
+    font-family: 'Abyssinica SIL', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.color-crimson {
+    color: crimson;
+}
+
+.top-section {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 0%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: aliceblue;
+    background-image: linear-gradient(tomato, red);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.donate-and-update-section {
+    text-align: center;
+    margin: 10%;
+}
+
+.flexible-container {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 5%;
+}
+
+.amounts {
+    color: gray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#fixed-amount {
+    color: red;
+    background-color: bisque;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#amount-input {
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 3%;
+}
+
+.donation-plan {
+    text-align: center;
+}
+
+.donation-plan-items {
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+#food {
+    background-color: lightcyan;
+}
+
+#shelter {
+    background-color: antiquewhite;
+}
+
+#education {
+    background-color: aqua;
+}
+
+#survive-section {
+    display: flex;
+    background-color: bisque;
+    margin-top: 10%;
+    margin-bottom: 13%;
+    padding-left: 1%;
+}
+
+.half-width {
+    display: flex;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+#subscribe-area {
+    background-color: papayawhip;
+    border-radius: 3px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 7% 15%;
+}
+
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box input {
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    outline: none;
+    background: lightgray;
+    height: 40px;
+}
+
+.form-box button {
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    background: rgb(231, 76, 49);
+    border: none;
+    height: 40px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
